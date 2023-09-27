@@ -6,4 +6,4 @@ I answered the questions asked in the module. I filtered, sorted, and used group
 
 I created a parquet data format and a temporary table with the parquet data. I asked that final query and the running time again. This time the parquet data run time was faster than the first SparkSQL, but slower than the cached data. I uncached the data and everything was complete. 
 
-One more thing to note. I tried to run this notebook in Google Colab a few days after I completed it and the findspark wasn't working. That code was apart of the starter code and I haven't changed it at all. So, hopefully it will work for you. 
+One more thing to note. I tried to run this notebook in Google Colab a few days after I completed it and the findspark wasn't working. I was able to fix it and get everything to run by changing the spark version to 3.5.0 instead of 3.4.0.
